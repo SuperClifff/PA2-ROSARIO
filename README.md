@@ -1,8 +1,3 @@
-1. What the Project Does
-This project demonstrates two fundamental data processing tasks using NumPy in Python:
-
-Normalization Problem:
-
 The project generates a 5x5 random matrix (ndarray).
 It then normalizes the matrix by centering (subtracting the mean) and scaling (dividing by the standard deviation) the data.
 The normalized matrix is saved as a file named X_normalized.npy.
