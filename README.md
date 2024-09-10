@@ -5,19 +5,28 @@
 ##### DIVISIBLE BY 3 PROBLEM: 
 - Create a 10x10 ndarray of squares of the first 100 positive integers, identify elements divisible by 3, and save the results.
 
-# The project generates a 5x5 random matrix (ndarray).
-It then normalizes the matrix by centering (subtracting the mean) and scaling (dividing by the standard deviation) the data.
-The normalized matrix is saved as a file named X_normalized.npy.
+# NORMALIZATION PROBLEM 
+#### Obejective: 
+Create a random 5x5 ndarray and normalize it.
+#### STEPS:
+1. Generate a 5x5 random ndarray and store it in variable X.
+2. Normalize X using the formula:
+𝑍 = x-x/𝜎
+3. Save the normalized ndarray as X_normalized.npy
 
-## Divisible by 3 Problem:
-
-The project creates a 10x10 matrix containing the squares of the first 100 positive integers.
-It identifies all elements in this matrix that are divisible by 3.
-The result is saved in a file named div_by_3.npy.
+# DIVISIBLE BY 3 PROBLEM
+#### Objective:
+Create a 10x10 ndarray of squares of the first 100 positive integers and find elements divisible by 3.
+#### Steps:
+1. Create a 10x10 ndarray where each element is the square of integers from 1 to 100.
+2. Identify elements in this ndarray that are divisible by 3.
+3. Save the result as div_by_3.npy.
 
 ####  Why the Project Is Useful
-Normalization: Normalization is a critical preprocessing step in data analytics and machine learning, ensuring that data features are on a similar scale, which can improve the performance of many algorithms.
-Divisibility Check: Identifying numbers divisible by a certain value is a basic yet powerful operation, especially in filtering data sets or applying conditional operations.
+##### Normalization: 
+Normalization is a critical preprocessing step in data analytics and machine learning, ensuring that data features are on a similar scale, which can improve the performance of many algorithms.
+##### Divisibility Check: 
+Identifying numbers divisible by a certain value is a basic yet powerful operation, especially in filtering data sets or applying conditional operations.
 
 
 ## Files
